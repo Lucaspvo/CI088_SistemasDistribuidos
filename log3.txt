@@ -1,0 +1,41 @@
+==========================================================================
+=                          Programa Iniciado                             =
+=                        Executara com 3 nodos:                          =
+=                   Nodo 0 enviara REQUEST no tempo 5                    =
+=                   Nodo 1 enviara REQUEST no tempo 5                    =
+=                   Nodo 2 enviara REQUEST no tempo 5                    =
+==========================================================================
+Sou o nodo 0, enviei uma requisicao para nodo 1 no tempo   5.0
+Sou o nodo 0, enviei uma requisicao para nodo 2 no tempo   5.0
+Sou o nodo 1, enviei uma requisicao para nodo 2 no tempo   5.0
+Sou o nodo 1, enviei uma requisicao para nodo 0 no tempo   5.0
+Sou o nodo 2, enviei uma requisicao para nodo 0 no tempo   5.0
+Sou o nodo 2, enviei uma requisicao para nodo 1 no tempo   5.0
+Sou o nodo 1, recebi uma requisicao do nodo 0 no tempo   6.0
+Sou o nodo 1, enviei um reply para nodo 0 no tempo   6.0
+Sou o nodo 2, recebi uma requisicao do nodo 0 no tempo   7.0
+Sou o nodo 2, enviei um reply para nodo 0 no tempo   7.0
+Sou o nodo 1, recebi uma requisicao do nodo 2 no tempo   7.0
+Sou o nodo 0, recebi uma requisicao do nodo 1 no tempo   8.0
+Sou o nodo 2, recebi uma requisicao do nodo 1 no tempo   9.0
+Sou o nodo 2, enviei um reply para nodo 1 no tempo   9.0
+Sou o nodo 0, recebi uma requisicao do nodo 2 no tempo   9.0
+Sou o nodo 0, recebi Reply do nodo 1 no tempo  11.0
+Sou o nodo 1, recebi Reply do nodo 2 no tempo  11.0
+Sou o nodo 0, recebi Reply do nodo 2 no tempo  12.0
+Sou o nodo 0, entrei na regiao critica no tempo  12.0
+Sou o nodo 0, sai da regiao critica no tempo  15.0
+Sou o nodo 0, enviei um reply para nodo 1 no tempo  15.0
+Sou o nodo 0, enviei um reply para nodo 2 no tempo  15.0
+Sou o nodo 2, recebi Reply do nodo 0 no tempo  17.0
+Sou o nodo 1, recebi Reply do nodo 0 no tempo  19.0
+Sou o nodo 1, entrei na regiao critica no tempo  19.0
+Sou o nodo 1, sai da regiao critica no tempo  21.0
+Sou o nodo 1, enviei um reply para nodo 2 no tempo  21.0
+Sou o nodo 2, recebi Reply do nodo 1 no tempo  26.0
+Sou o nodo 2, entrei na regiao critica no tempo  26.0
+Sou o nodo 2, sai da regiao critica no tempo  31.0
+==========================================================================
+=                       Finalizacao do Programa                          =
+=            Todos os processos executaram a Regiao Critica              =
+==========================================================================

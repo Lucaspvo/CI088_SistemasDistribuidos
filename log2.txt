@@ -1,0 +1,22 @@
+==========================================================================
+=                          Programa Iniciado                             =
+=                        Executara com 2 nodos:                          =
+=                   Nodo 0 enviara REQUEST no tempo 20                   =
+=                   Nodo 1 enviara REQUEST no tempo 20                   =
+==========================================================================
+Sou o nodo 0, enviei uma requisicao para nodo 1 no tempo  20.0
+Sou o nodo 1, enviei uma requisicao para nodo 0 no tempo  20.0
+Sou o nodo 1, recebi uma requisicao do nodo 0 no tempo  22.0
+Sou o nodo 1, enviei um reply para nodo 0 no tempo  22.0
+Sou o nodo 0, recebi uma requisicao do nodo 1 no tempo  25.0
+Sou o nodo 0, recebi Reply do nodo 1 no tempo  27.0
+Sou o nodo 0, entrei na regiao critica no tempo  27.0
+Sou o nodo 0, sai da regiao critica no tempo  31.0
+Sou o nodo 0, enviei um reply para nodo 1 no tempo  31.0
+Sou o nodo 1, recebi Reply do nodo 0 no tempo  33.0
+Sou o nodo 1, entrei na regiao critica no tempo  33.0
+Sou o nodo 1, sai da regiao critica no tempo  38.0
+==========================================================================
+=                       Finalizacao do Programa                          =
+=            Todos os processos executaram a Regiao Critica              =
+==========================================================================
